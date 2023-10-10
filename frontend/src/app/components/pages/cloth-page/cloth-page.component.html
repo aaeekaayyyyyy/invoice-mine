@@ -1,10 +1,10 @@
 <app-not-found
-  [visible]="!cloth.id"
+  [visible]="!cloth"
   notFoundMessage="Uh ho! Cloth Not Found"
   resetLinkText="Back To Homepage"
 >
 </app-not-found>
-<div *ngIf="cloth.id" class="container">
+<div *ngIf="cloth" class="container">
   <img [src]="cloth.imageUrl" [alt]="cloth.name" />
 
   <div class="details">

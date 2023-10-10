@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ClothService } from 'src/app/services/cloth.service';
 import { Cloth } from 'src/app/shared/models/clothes';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-home',
@@ -14,12 +15,17 @@ export class HomeComponent {
     private clothService: ClothService,
     activatedRoute: ActivatedRoute
   ) {
+    let clothesObservalbe: Observable<Cloth[]>;
     activatedRoute.params.subscribe((params) => {
       if (params.searchTerm)
-        this.clothes = this.clothService.getAllClothesBySearchTerm(
+        clothesObservalbe = this.clothService.getAllClothesBySearchTerm(
           params.searchTerm
         );
-      else this.clothes = clothService.getAll();
+      else clothesObservalbe = clothService.getAll();
+
+      clothesObservalbe.subscribe((serverClothes) => {
+        this.clothes = serverClothes;
+      });
     });
   }
 }

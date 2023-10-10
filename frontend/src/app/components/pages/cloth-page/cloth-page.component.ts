@@ -19,7 +19,10 @@ export class ClothPageComponent {
     private router: Router
   ) {
     activatedRoute.params.subscribe((params) => {
-      if (params.id) this.cloth = clothService.getClothbyId(params.id);
+      if (params.id)
+        clothService.getClothById(params.id).subscribe((serverCloth) => {
+          this.cloth = serverCloth;
+        });
     });
   }
 
