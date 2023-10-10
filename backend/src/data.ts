@@ -28,3 +28,27 @@ export const sample_clothes: any[] = [
     imageUrl: "assets/cloth-4.jpeg",
   },
 ];
+
+export const sample_users: any[] = [
+  {
+    name: "Ayushman Khandelwal",
+    email: "ayushmankhandelwal04@gmail.com",
+    password: "12345",
+    address: "Faridabad",
+    isAdmin: true,
+  },
+  {
+    name: "Aaliya Wazir",
+    email: "aaliyawazir@gmail.com",
+    password: "12345",
+    address: "Jalandhar",
+    isAdmin: false,
+  },
+  {
+    name: "PlotLine",
+    email: "user@plotline.com",
+    password: "1234",
+    address: "Bangalore",
+    isAdmin: false,
+  },
+];
