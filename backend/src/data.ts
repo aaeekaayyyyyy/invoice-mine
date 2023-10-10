@@ -28,20 +28,3 @@ export const sample_clothes: any[] = [
     imageUrl: "assets/cloth-4.jpeg",
   },
 ];
-
-export const sample_users: any[] = [
-  {
-    name: "Ayushman Khandelwal",
-    email: "ayushmankhandelwal04@gmail.com",
-    password: "12345",
-    address: "Faridabad",
-    isAdmin: true,
-  },
-  {
-    name: "Aaliya Wazir",
-    email: "waziraaliya@gmail.com",
-    password: "67890",
-    address: "Jalandhar",
-    isAdmin: false,
-  },
-];

@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { Cloth } from '../shared/models/clothes';
-import { sample_clothes } from 'src/data';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import {
