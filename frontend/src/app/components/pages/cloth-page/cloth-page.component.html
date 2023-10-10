@@ -1,0 +1,27 @@
+<app-not-found
+  [visible]="!cloth.id"
+  notFoundMessage="Uh ho! Cloth Not Found"
+  resetLinkText="Back To Homepage"
+>
+</app-not-found>
+<div *ngIf="cloth.id" class="container">
+  <img [src]="cloth.imageUrl" [alt]="cloth.name" />
+
+  <div class="details">
+    <div class="header">
+      <span class="name">{{ cloth.name }} </span>
+    </div>
+    <div class="tags">
+      <a *ngFor="let tag of cloth.tags" routerLink="/tag/{{ tag }}">
+        {{ tag }}
+      </a>
+    </div>
+    <div class="price">
+      <span>
+        {{ cloth.price | currency : "INR" : "symbol" }}
+      </span>
+    </div>
+
+    <button (click)="addToCart()" class="button">Add to cart</button>
+  </div>
+</div>

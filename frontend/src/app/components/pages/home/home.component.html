@@ -1,0 +1,23 @@
+<app-search></app-search>
+<app-not-found
+  [visible]="!clothes || !clothes.length"
+  resetLinkText="Reset Search"
+>
+</app-not-found>
+<ul>
+  <li *ngFor="let cloth of clothes">
+    <a routerLink="/cloth/{{ cloth.id }}">
+      <img [src]="cloth.imageUrl" [alt]="cloth.name" />
+      <div class="content">
+        <div class="name">
+          {{ cloth.name }}
+        </div>
+        <div class="price">
+          <span>
+            {{ cloth.price | currency : "INR" : "symbol" }}
+          </span>
+        </div>
+      </div>
+    </a>
+  </li>
+</ul>
