@@ -16,6 +16,56 @@ Run `ng generate component component-name` to generate a new component. You can 
    2. Add Html
    3. Add CSS
 
+#List Clothes
+    1. Create Cloth model
+    2. Create data.ts
+       1. Add sample foods
+    3. Add images to assets
+    4. Create Cloth service
+    5. Create Home component
+       1. Add ts
+       2. Add html
+       3. Add css
+
+#Search
+   1. Add method to Cloth service
+   2. Add search route
+   3. Show search result in Home component
+   4. Generate search component
+      1. Add to home component
+      2. Add ts
+      3. Add html
+      4. Add css
+
+ #Cloth Page
+   1. Add method to cloth service
+   2. Generate Cloth Page component
+      1. Add Route
+      2. Add ts
+      3. Add html
+      4. Add css
+     
+#Cart Page
+   1. Create CartItem Model
+   2. Create Cart Model
+   3. Generate Cart service
+   4. Add to Cart Button in Cloth Page
+   5. Generate Cart page component
+      1. Add Route
+      2. Add ts
+      3. Add html
+      4. Add css
+     
+#Not Found!
+    1. Generate Component
+       1. Add ts
+       2. Add html
+       3. Add css
+    2. Add To Pages
+       1. Home Page
+       2. Cloth Page
+       3. Cart Page
+
 
 ## Build
 
