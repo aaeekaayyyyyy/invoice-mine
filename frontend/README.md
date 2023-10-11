@@ -11,12 +11,12 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Step by step development process
-#Add Header
+##Add Header
    1. Generate Component
    2. Add Html
    3. Add CSS
 
-#List Clothes
+##List Clothes
     1. Create Cloth model
     2. Create data.ts
        1. Add sample foods
@@ -27,7 +27,7 @@ Run `ng generate component component-name` to generate a new component. You can 
        2. Add html
        3. Add css
 
-#Search
+##Search
    1. Add method to Cloth service
    2. Add search route
    3. Show search result in Home component
@@ -37,7 +37,7 @@ Run `ng generate component component-name` to generate a new component. You can 
       3. Add html
       4. Add css
 
- #Cloth Page
+ ##Cloth Page
    1. Add method to cloth service
    2. Generate Cloth Page component
       1. Add Route
@@ -45,7 +45,7 @@ Run `ng generate component component-name` to generate a new component. You can 
       3. Add html
       4. Add css
      
-#Cart Page
+##Cart Page
    1. Create CartItem Model
    2. Create Cart Model
    3. Generate Cart service
@@ -56,7 +56,7 @@ Run `ng generate component component-name` to generate a new component. You can 
       3. Add html
       4. Add css
      
-#Not Found
+##Not Found
     1. Generate Component
        a. Add ts
        b. Add html
