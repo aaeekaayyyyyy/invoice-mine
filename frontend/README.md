@@ -58,13 +58,13 @@ Run `ng generate component component-name` to generate a new component. You can 
      
 #Not Found
     1. Generate Component
-       1. Add ts
-       2. Add html
-       3. Add css
+       a. Add ts
+       b. Add html
+       c. Add css
     2. Add To Pages
-       1. Home Page
-       2. Cloth Page
-       3. Cart Page
+       a. Home Page
+       b. Cloth Page
+       c. Cart Page
 
 
 ## Build
