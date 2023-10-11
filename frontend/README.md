@@ -11,6 +11,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 # Step by step development process
+   The following steps were followed to create invoice-mine!
 
 ## Add Header
    1. Generate Component
@@ -83,6 +84,65 @@ Run `ng generate component component-name` to generate a new component. You can 
     11. Add HttpClient module
     12. Update cloth service
 
+
+## Login Page
+    1.  Generate Component
+        1.  Add to routes
+        2.  Add ts 
+        3.  Add html
+            1.  Import Reactive Forms Module
+        4.  Add Css
+    2.  Add Login Api
+        1.  Use json
+        2.  Add jsonwebtoken
+        3.  Test Using Postman
+
+##  Generate User Service
+        1.  Generate User model
+        2.  Add User Subject
+        3.  Add Login Method   
+            1.  Add User Urls
+            2.  Generate IUserLogin interface
+            3.  Add ngx-toastr
+                1.  Import Module
+                2.  Import BrowserAnimationsModule
+                3.  Add styles in angular.json
+            4.  Add to Header
+        1. Add Local Storage methods
+        2. Add Logout Method
+           1. Add to Header 
+
+## Make Components For Login Page
+    1. Input Container
+    2. Input Validation
+    3. Text Input
+    4. Default Button
+
+## Connect Login API To MongoDB Atlas
+    1. Moving Apis into routers
+    2. Create MongoDB Atlas
+    3. Create .env file
+    4. Install
+       1. mongoose
+       2. dotenv
+       3. bcryptjs
+       4. express-async-handler
+    5. Connect to MongoDB Atlas
+    6. Use MongoDB instead of data.ts in apis
+
+ ## Register User
+    1.  Add Register api
+    2.  Add Register service method
+    3.  Add Register link 
+    4.  Add Register Component    
+
+## Checkout Page
+    1.  Create Order Model
+    2.  Create Checkout Page Component
+        1.  Add To Router   
+    3.  Add User to User Service 
+    4.  Add Cart to Cart Service 
+    5.  Create Order Items List Component
 
 ## Build
 
