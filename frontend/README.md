@@ -68,7 +68,7 @@ Run `ng generate component component-name` to generate a new component. You can 
        b. Cloth Page
        c. Cart Page
 
-# Connect To Backend
+## Connect To Backend
     1.  Create backend folder
     2.  npm init
     3.  npm install typescript
