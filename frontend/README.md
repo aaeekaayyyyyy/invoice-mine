@@ -56,7 +56,7 @@ Run `ng generate component component-name` to generate a new component. You can 
       3. Add html
       4. Add css
      
-#Not Found!
+#Not Found
     1. Generate Component
        1. Add ts
        2. Add html
